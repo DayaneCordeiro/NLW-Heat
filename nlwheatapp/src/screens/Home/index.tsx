@@ -1,10 +1,14 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View } from "react-native";
+
+import { styles } from "./styles";
+
+import { Header } from "../../components/Header";
 
 export function Home() {
   return (
-    <View>
-      <Text>Dayane has here!</Text>
+    <View style={styles.container}>
+      <Header />
     </View>
   );
 }
